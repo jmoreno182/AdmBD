@@ -1,5 +1,5 @@
 CREATE TABLE admbd.profesores(
-    id_profesor VARCHAR(15) NOT NULL,
+    id_profesor INT AUTO_INCREMENT NOT NULL,
     key_titulo INT
     key_especialidad INT
     PRIMARY KEY(id_profesor))

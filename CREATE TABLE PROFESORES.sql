@@ -3,4 +3,4 @@ CREATE TABLE admbd.profesores(
     key_titulo INT
     key_especialidad INT
     PRIMARY KEY(id_profesor))
-ENGINE = InnoDB DEFAULT CHARSET=utf8 COLLATE = utf8_general_ci;
+ENGINE = InnoDB;

@@ -1,0 +1,1 @@
+ALTER TABLE admbd.usuario ADD FOREIGN KEY (key_sede) REFERENCES sede (id_sede);

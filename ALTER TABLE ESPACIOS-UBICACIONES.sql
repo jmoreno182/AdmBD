@@ -1,1 +1,2 @@
-ALTER TABLE admbd.espacios ADD FOREIGN KEY (key_ubicacion) REFERENCES ubicaciones (id_ubicacion);
+ALTER TABLE admbd.espacios ADD FOREIGN KEY (key_ubicaciones) 
+REFERENCES ubicaciones (id_ubicaciones);

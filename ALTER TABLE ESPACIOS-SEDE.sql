@@ -1,0 +1,1 @@
+ALTER TABLE admbd.espacios ADD FOREIGN KEY (key_sede) REFERENCES sede (id_sede);
